@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>nao_lola</name>
-  <version>0.0.2</version>
+  <version>0.0.3</version>
   <description>Packages that allow communicating with the NAO’s Lola middle-ware.</description>
   <maintainer email="kenjibrameld@gmail.com">ijnek</maintainer>
   <license>Apache License 2.0</license>
@@ -11,10 +11,12 @@
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
 
   <depend>rclcpp</depend>
   <depend>nao_command_msgs</depend>
   <depend>nao_sensor_msgs</depend>
+  <depend>boost</depend>
 
   <export>
     <build_type>ament_cmake</build_type>
