@@ -1,0 +1,30 @@
+ros-rolling-nao-lola (0.0.4-2jammy) jammy; urgency=high
+
+  * fix cpplint warning
+  * add changes to ci to test all distros
+  * Contributors: Kenji Brameld, ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 03 Feb 2022 15:00:00 -0000
+
+ros-rolling-nao-lola (0.0.3-2jammy) jammy; urgency=high
+
+  * add ament_cmake_gtest and boost dependency in package.xml and CMakeLists.txt
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Wed, 28 Jul 2021 15:00:00 -0000
+
+ros-rolling-nao-lola (0.0.2-2jammy) jammy; urgency=high
+
+  * specify license and update package description
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Mon, 19 Jul 2021 15:00:00 -0000
+
+ros-rolling-nao-lola (0.0.1-2jammy) jammy; urgency=high
+
+  * Initial impelementation
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 16 Jul 2021 15:00:00 -0000
+
+
