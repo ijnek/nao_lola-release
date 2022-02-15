@@ -1,0 +1,12 @@
+Source: ros-rolling-nao-lola
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-rolling-ament-cmake, ros-rolling-ament-cmake-gtest, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-nao-command-msgs, ros-rolling-nao-sensor-msgs, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-nao-lola
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, ros-rolling-nao-command-msgs, ros-rolling-nao-sensor-msgs, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Description: Packages that allow communicating with the NAO’s Lola middle-ware.
